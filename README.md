@@ -1,1 +1,5 @@
 # DMProject
+Enhancing Bagging through Signal-Noise Separation
+
+## Abstract
+Class imbalance in classification problems can significantly impair model performance, particularly for minority classes. This paper introduces a novel hybrid approach to address class imbalance in classification problems by enhancing bagging ensemble methods through principal component analysis (PCA). The proposed framework utilizes truncated singular value decomposition to split the data into a low-rank approximation and noise components. These components are separately bootstrapped to create synthetic balanced samples that are then passed to individual classifiers. The method aims to preserve the underlying data structure while introducing variability, potentially improving robustness and generalization beyond the original dataset. Another one of our objectives is the principle of parsimony, in a sense that our method should be comparatively  computationally inexpensive. The approach is applied to and evaluated on a Taiwanese bankruptcy prediction dataset collected from the Taiwan Economic Journal for the years 1999 to 2009.
